@@ -16,7 +16,7 @@
 ## Downloading and Playing on Local Machine :
 
   1. Download or clone the repository.
-  2. Install a webserver like (XAMPP)[https://www.apachefriends.org/download.html].
+  2. Install a webserver like [XAMPP](https://www.apachefriends.org/download.html).
   3. Start the Apache and MySQL server.
   4. Place all the Files (except HangMan-Database.sql) int htdocs folder of your local server.
   5. Create a Database named HangMan.
