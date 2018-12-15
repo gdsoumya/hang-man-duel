@@ -1,0 +1,301 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 10vw;
+    margin: 0px 10px;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    font-size: 5vw;
+    font-family: 'Pacifico', cursive;
+}
+.navbr{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbr a{
+    font-size: 1.7vw;
+    background: black;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    margin-right: 1vw;
+}
+#tag{
+    font-size: 4vw;
+    margin: 29px;
+    font-family: 'Berkshire Swash', cursive;
+}
+.lnk a{
+    text-decoration:  none;
+    color: black;
+    font-size: inherit;
+    background:  white;
+    border: none;
+    padding: 0px 0px;
+    font-family: inherit;
+}
+a{
+    text-decoration:  none;
+    color: white;
+    font-size: 2.7vw;
+    background:  black;
+    border-radius:  30px;
+    padding: 9px 17px;
+    font-family: 'Permanent Marker', cursive;
+}
+.h{
+    margin-bottom: 50px;
+}
+* {
+    box-sizing: border-box;
+}
+input[type=text],input[type=password], select, textarea{
+    width: 100%;
+    padding: 0% 2%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: content-box;
+    resize: vertical;
+    font-family: monospace;
+    font-weight:  bolder;
+    font-size: 108%;
+    height: 35px;
+}
+label {
+    padding: 0px 12px 12px 0;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+    line-height: 26px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    margin: 4vw auto;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 788px) {
+    .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .col-25{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+}
+@media (max-width: 700px){
+    #hw{
+        font-size: 4vw;
+        margin: 2% 15%;
+        font-family: 'Concert One', cursive;
+        font-style:  italic;
+        margin-bottom: 21px;
+        padding-bottom: 2%;
+        line-height: 139%;
+    }
+    .reslt{
+        display: flex;
+        margin: 2% 0px;
+    }
+    .nv label{
+        font-size: 4vw;
+        width:  90%;
+        background:  lawngreen;
+        padding: 1.5vw;
+        margin-bottom: 1%;
+    }
+    .nd label{
+        font-size: 4vw;
+        width:  90%;
+        background:  red;
+        padding: 1.5vw;
+        margin-bottom: 1%;
+    }
+    .reslt p{
+        padding: 3.5%;
+        font-size: 45%;
+        font-family: 'Fjalla One', sans-serif;
+        width: 90%;
+        margin: 0px auto;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .nv{
+        width: 50%;
+        font-size: 30px;
+    }
+    .nd{
+        width: 50%;
+        font-size: 30px;
+    }
+    .verify{
+        margin: 2vw;
+    }
+    .verify label{
+        font-size: 5vw;
+        line-height: 137%;
+        margin-top: 10px;
+    }
+    #ver{
+        margin: 2% 0px;
+        width: 50%;
+        height: 5.5vw;
+        font-size: 3vw;
+        padding: 0% 4%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: content-box;
+        resize: vertical;
+        font-family: monospace;
+        font-weight:  bolder;
+    }
+    .verify input[type=submit]{
+        margin: 1% 37%;
+        width: 26%;
+        font-size: 3vw;
+        padding: 4px;
+    }
+}
+.lnk{
+    border: 1vw solid black;
+    padding: 5px 0px 6px 0px;
+    font-size: 4vw;
+    font-family: 'Concert One', cursive;
+    margin: 3vw 1px;
+    border-radius: 31px;
+}
+.chlnger{
+    font-size: 5vw;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 3vw;
+    line-height: 7vw;
+}
+@media (min-width: 700px){
+    #hw{
+        font-size: 3vw;
+        margin: 2% 15%;
+        font-family: 'Concert One', cursive;
+        font-style:  italic;
+        margin-bottom: 21px;
+        padding-bottom: 2%;
+        line-height: 139%;
+    }
+    .reslt{
+        display: flex;
+        margin: 2% 0px;
+    }
+    .nv label{
+        font-size: 3vw;
+        width:  90%;
+        background:  lawngreen;
+        padding: 1.5vw;
+        margin-bottom: 2%;
+    }
+    .nd label{
+        font-size: 3vw;
+        width:  90%;
+        background:  red;
+        padding: 1.5vw;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+    }
+    .reslt p{
+        padding: 2%;
+        margin: 0px auto;
+        width: 90%;
+        font-size: 2.5vw;
+        font-family: 'Fjalla One', sans-serif;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .nv{
+        width: 50%;
+        font-size: 30px;
+    }
+    .nd{
+        width: 50%;
+        font-size: 30px;
+    }
+    .verify{
+        margin: 2vw;
+    }
+    .verify label{
+        font-size: 5vw;
+        line-height: 97%;
+    }
+    #ver{
+        margin: 1% 0px;
+        width: 50%;
+        height: 4vw;
+        font-size: 23px;
+        padding: 0% 2%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: content-box;
+        resize: vertical;
+        font-family: monospace;
+        font-weight:  bolder;
+    }
+    .verify input[type=submit]{
+        margin: 1% 35.5%;
+        width: 30%;
+        font-size: 22px;
+        padding: 10px;
+    }
+    .ver{
+        line-height: 7vw;
+    }
+}
+.inf{
+    display: flex;
+    font-family: 'Concert One', cursive;
+    font-size: 4vw;
+    margin-top: 1.5vw;
+}
+.iw{
+    font-size: 83%;
+    width: 50%;
+}
+#it{    
+    width: 50%;
+}
+.nd p:last-child {
+    border-bottom: 2px solid black;
+}
+.nv p:last-child {
+    border-bottom: 2px solid black;
+}
