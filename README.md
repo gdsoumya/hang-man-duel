@@ -8,10 +8,15 @@
   2. Each session is secured with a Game Id and a Password (as chosen by the challenger) to ensure that only users with access can play or monitor the game session.
   3. Each person can play only once in a session(ip address tracking).
   4. For each session a Dashboard is provided which has all the details of the current session like :
+  
     a. Challenger details.
+  
     b. Game Link.
+  
     c. Game ID
+  
     d. Session Password
+  
     e. Auto Updating Result List   
     
 ## Downloading and Playing on Local Machine :
