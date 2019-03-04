@@ -24,3 +24,9 @@
   5. Create a Database named HangMan.
   6. Import the Database Template HangMan-Database.sql into your database.
   7. Visit your local server from your webrowser to start playing.
+
+## Author
+- **Soumya Ghosh Dastidar**
+
+## Contributting
+Any contribution/suggestions are welcomed.
